@@ -90,11 +90,12 @@ span{
       position: absolute;
       color:#fed967;
     }
-    
+
     /*main*/
-   main .site-title{
+    main .site-title{
         background-image: url("../Slike/ori2.jpg");
-        height: 110vh;
+        max-width: 100%;
+        height: 50vw;
         display:flex;
         justify-content: center;
         background-position: center;
