@@ -1,0 +1,182 @@
+*{
+  background-color: #e4ded2;
+font-family: 'Aleo';
+margin: 0;
+max-width: 100%;
+box-sizing: border-box;
+}
+.meni {
+  text-align: center;
+  border: 1px solid #262626;
+  background-color: #262626;
+  width: 100%;
+  top: 0;
+}
+.meni button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 14px 16px;
+  margin-left: 3%;
+  margin-right: 3%;
+  color:#fed967;
+  font-family: menu;
+  font-size: 1.5vw;
+}
+.meni button:hover {
+  background-color: #4d4d4d;
+}
+.meni button.active {
+  background-color:  #4d4d4d;
+}
+#logo{
+  width:3%;
+  height:3%;
+  background-color: #262626;
+}
+
+footer {
+  font-size: 1vw;
+  background-color: #262626;
+  width: 100%;
+  height: 4vw;
+  margin-top: 0.5%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  color:#fed967;
+}
+#pocetak{
+  font-size: 0.85vw;
+  display: block;
+  text-align: center;
+  color:#262626;
+  padding: 3% 0px 0.5% 0px;
+  font-weight: bold;
+}
+    body{
+      background-image: url(../Slike/bg.png);
+      background-attachment: fixed;
+    }
+    .form-style-7 input[type="text"]:focus,
+    .form-style-7 input[type="date"]:active {
+  background: #e4e2dd;
+    }
+.form-style-7{
+  
+    max-width:400px;
+    margin:50px auto;
+    padding-left: 200px;
+    border-radius:2px;
+    padding:20px;
+    font-family: Aleo;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #1a2f01;
+  }
+  .form-style-7 h1{
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: rgb(104, 34, 34);
+    font-size:x-large;
+  }
+  .form-style-7 ul{
+    list-style:none;
+    padding:0;
+    margin:0;	
+  }
+  .form-style-7 li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 30px;
+    border-radius: 3px;
+  }
+  .form-style-7 li:last-child{
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .form-style-7 li > label{
+    display: block;
+    float: left;
+    margin-top: -19px;
+    
+    height: 14px;
+    padding: 2px 5px 20px 5px;
+    color: #a7aa88;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  form-style-7 input[type="checkbox"]{
+    
+    width: 100%;
+    display: block;
+    ;
+  }
+  .form-style-7 input[type="text"],
+  .form-style-7 input[type="date"],
+  .form-style-7 input[type="datetime"],
+  .form-style-7 input[type="email"],
+  .form-style-7 input[type="number"],
+  .form-style-7 input[type="search"],
+  .form-style-7 input[type="time"],
+  .form-style-7 input[type="url"],
+  
+  .form-style-7 textarea,
+  .form-style-7 select 
+  {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: 3px, thin, #a7aa88;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    font-family: 'Aleo';
+  }
+ 
+  
+  
+  .form-style-7 li > span{
+    
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    
+  }
+  .form-style-7 textarea{
+    resize:vertical;
+  }
+  .form-style-7 input[type="submit"],
+  .form-style-7 input[type="button"]{
+    background: #a7aa88;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid #a7aa88;
+    border-radius: 3px;
+    color: #D2E2FF;
+  }
+  .form-style-7 input[type="submit"]:hover,
+  .form-style-7 input[type="button"]:hover{
+    background: #a7aa88;
+    color:#fff;
+  }
+  
+  
+  

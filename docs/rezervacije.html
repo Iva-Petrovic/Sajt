@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../CSS/stylerezervacije.css">
+    <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+    
+    <title>5 do 12 | Rezervacije</title>
+</head>
+<body font-family: 'Aleo' font-size: 22px>
+       <div class="meni">
+          <img src="../Slike/Logo.png" id="logo" align=center>
+            <button id="pocetna">        Početna          </button>
+            <button id="galerija">       Galerija radova  </button>
+            <button id="rezervacije">    Rezervacije      </button>
+            <button id="blog">    Blog      </button>
+            <button id="kontakt">        Kontakt          </button>
+        </div>
+     
+        <h1>Rezervacije</h1>
+        
+<!--FORMA ZA PRIJAVU-->
+<form class="form-style-7" name="myForm" action="rezervacije.html" onsubmit="return validateForm()" method="POST">
+    <ul>
+    <li>
+        <label for="name">Ime i prezime</label>
+        <input type="text" name="fname" maxlength="100" placeholder="Unesite Vaše ime i prezime">
+        
+    </li>
+    <li>
+        <label for="number">Broj telefona</label>
+        <input type="text" name="number" maxlength="100" placeholder="Unesite kontakt telefon" onkeypress="validateNum()">
+        <span><i>Samo brojeve možete uneti</i></span>
+    </li>
+    <li>
+        <label for="date">Izaberite datum</label>
+        <input type="date" name="date">
+    </li>
+    <li>
+        <label for="time">Izaberite vreme</label>
+        <input type="time" name="time">
+    </li>
+    <li>
+      <label for="objekat">Izaberite lokal</label>
+        <select name="objekat">
+            <option value="trgovacka">Trgovacka</option>
+            <option value="trgovacka">Ustanicka</option>
+            <option value="trgovacka">Paunova</option>
+        </select>
+    </li>
+    <li>
+      
+      <label for="text">Izaberite usluge</label>
+      <br>
+      <input type="checkbox" name="usluga" value="Sisanje">Šišanje<br>
+      <input type="checkbox" name="usluga" value="Feniranje">Feniranje<br>
+      <input type="checkbox" name="usluga" value="Dubinsko pranje kose">Dubinsko pranje kose<br>
+      <input type="checkbox" name="usluga" value="Farbanje">Farbanje<br>
+      <input type="checkbox" name="usluga" value="Izvlačenje pramenova">Izvlačenje pramenova<br>
+      <input type="checkbox" name="usluga" value="Ombre">Ombre<br>
+      <input type="checkbox" name="usluga" value="Keratin tretman">Keratin tretman<br>
+      <input type="checkbox" name="usluga" value="Nadogradnja kose">Nadogradnja kose<br>
+      <input type="checkbox" name="usluga" value="Dubinska nega kose">Dubinska nega kose<br>
+      <input type="checkbox" name="usluga" value="Ostalo">Ostalo<br>
+      
+  </li>
+    <li>
+        <label for="napomena">Napomena</label>
+        <textarea name="text"></textarea>
+        <span>Napomena</span>
+    </li>
+    
+    <li>
+        <input type="submit" value="Pošalji!" >
+    </li>
+    </ul>
+    </form>
+    <p><a href="#" id="pocetak"> Vrati se na početak. </a></p>
+      <script src="../JS/scriptRezervacije.js"></script>
+  
+</body>
+<footer>
+    <br>
+    © 2019 Frizerski salon "5 do 12", Beograd. Sva prava zadržana.
+</footer>
+</html> 

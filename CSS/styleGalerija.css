@@ -1,0 +1,91 @@
+*{
+  background-color: #e4ded2;
+font-family: 'Aleo';
+margin: 0;
+max-width: 100%;
+box-sizing: border-box;
+}
+.meni {
+  text-align: center;
+  border: 1px solid #262626;
+  background-color: #262626;
+  width: 100%;
+  top: 0;
+}
+.meni button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 14px 16px;
+  margin-left: 3%;
+  margin-right: 3%;
+  color:#fed967;
+  font-family: menu;
+  font-size: 1.5vw;
+}
+.meni button:hover {
+  background-color: #4d4d4d;
+}
+.meni button.active {
+  background-color:  #4d4d4d;
+}
+#logo{
+  width:3%;
+  height:3%;
+  background-color: #262626;
+}
+#naslov{
+    text-align: center;
+    margin:1%;
+   font-size: 2vw;
+}
+
+button{
+  text-align: center;
+  background-color: #262626;
+  margin-left: 1.5%;
+  border: none;
+  padding: 0.5vh 0.7vh 0.5vh 0.7vh;
+  border-radius: 4px;
+  color: #fed967;
+  font-size: 0.90vw;
+}
+button:hover, button.active {
+  background-color: #4d4d4d;
+  color: #fed967;
+  cursor: pointer;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.galerijaSlike{
+  max-height:20vw;
+  margin: 1% 0 1% 0;
+}
+.galerijaSlike:hover{
+  transform: scale(1.1);
+}
+#pocetak{
+  font-size: 0.85vw;
+  display: block;
+  text-align: center;
+  color:#262626;
+  padding: 3% 0px 0.5% 0px;
+  font-weight: bold;
+}
+footer {
+  font-size: 1vw;
+  background-color: #262626;
+  width: 100%;
+  height: 4vw;
+  margin-top: 0.5%;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  color:#fed967;
+}
