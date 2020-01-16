@@ -148,7 +148,7 @@ zoom: 100%;
     border:1px solid #dcdcdc;
     display:inline-block;
     cursor:pointer;
-    color:#777777;
+    color:#777777;;
     left:-100px;
     font-size:15px;
     font-weight:bold;
@@ -160,7 +160,8 @@ zoom: 100%;
     background:linear-gradient(to bottom, #e8dce8 5%, #ededed 100%);
     background-color:#e8dce8;
   }
- 
+ p.text-lg{
+   color:#777777;
   
  
     
